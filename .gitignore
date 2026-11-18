@@ -1,0 +1,11 @@
+﻿audio/
+features/
+saved_models/
+*.pth
+*.pt
+*.wav
+__pycache__/
+*.pyc
+.gradio/
+.venv/
+venv/

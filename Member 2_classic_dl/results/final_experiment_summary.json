@@ -1,0 +1,84 @@
+{
+    "hp_lr1e-3_drop0.3": {
+        "val_acc": 53.12,
+        "test_robustness": {
+            "clean": {
+                "accuracy": 45.75,
+                "macro_f1": 42.6
+            },
+            "snr_20dB": {
+                "accuracy": 49.5,
+                "macro_f1": 46.66
+            },
+            "snr_10dB": {
+                "accuracy": 49.5,
+                "macro_f1": 45.93
+            },
+            "snr_5dB": {
+                "accuracy": 48.0,
+                "macro_f1": 44.48
+            },
+            "snr_0dB": {
+                "accuracy": 32.0,
+                "macro_f1": 29.74
+            }
+        }
+    },
+    "hp_lr5e-4_drop0.4": {
+        "val_acc": 40.0,
+        "test_robustness": {
+            "clean": {
+                "accuracy": 33.0,
+                "macro_f1": 27.21
+            },
+            "snr_20dB": {
+                "accuracy": 35.0,
+                "macro_f1": 29.93
+            },
+            "snr_10dB": {
+                "accuracy": 37.5,
+                "macro_f1": 32.27
+            },
+            "snr_5dB": {
+                "accuracy": 36.5,
+                "macro_f1": 30.5
+            },
+            "snr_0dB": {
+                "accuracy": 24.5,
+                "macro_f1": 21.95
+            }
+        }
+    },
+    "no_noise_aug": {
+        "val_acc": 62.81,
+        "test_robustness": {
+            "clean": {
+                "accuracy": 52.75,
+                "macro_f1": 51.46
+            },
+            "snr_20dB": {
+                "accuracy": 18.5,
+                "macro_f1": 12.8
+            },
+            "snr_10dB": {
+                "accuracy": 11.5,
+                "macro_f1": 6.8
+            },
+            "snr_5dB": {
+                "accuracy": 8.75,
+                "macro_f1": 4.36
+            },
+            "snr_0dB": {
+                "accuracy": 7.0,
+                "macro_f1": 2.56
+            }
+        }
+    },
+    "repeated_seeds_summary": {
+        "clean": "45.58% \u00b1 1.43%",
+        "snr_20dB": "49.50% \u00b1 0.00%",
+        "snr_10dB": "49.83% \u00b1 0.31%",
+        "snr_5dB": "47.75% \u00b1 0.54%",
+        "snr_0dB": "33.58% \u00b1 1.12%"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "project": "ESC-50 Audio Classification",
+    "data_split": {
+        "train": 1280,
+        "val": 320,
+        "test": 400
+    },
+    "models_status": {
+        "Model_1_Advanced": "Success ✅",
+        "Model_2_Classic_2DCNN": "Success ✅",
+        "Model_3_AST": "Success ✅"
+    },
+    "where_to_find_results": {
+        "Model_1_Advanced": "results/ & saved_models/",
+        "Model_2_Classic_2DCNN": "Member 2_classic_dl/results/final_experiment_summary.json & Member 2_classic_dl/checkpoints/",
+        "Model_3_AST": "Member 3_ast/results/ & Member 3_ast/experiments/"
+    }
+}

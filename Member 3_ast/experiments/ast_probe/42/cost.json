@@ -1,0 +1,7 @@
+{
+  "feature_stage_wall_seconds": 3396.486833999981,
+  "head_training_and_validation_seconds": 1.6331120000686496,
+  "hardware": "CPU",
+  "total_parameters": 86227250,
+  "trainable_parameters": 39986
+}
